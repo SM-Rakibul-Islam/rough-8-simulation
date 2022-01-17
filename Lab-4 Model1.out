@@ -1,0 +1,71 @@
+
+                                      ARENA Simulation Results
+                            sm1998rakibul@gmail.com - License:           
+
+                                  Summary for Replication 1 of 1
+
+Project: DIU Transport System                                        Run execution date : 2/15/2021
+Analyst: sm1998rakibul@gmail.com                                     Model revision date: 2/15/2021
+
+Replication ended at time      : 720.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Moving.WaitTimePerEntity                    .18348     .05194     .00000     2.1016        338    
+Loading bus.WaitTimePerEntity               .03039     .01278     .00000     .46766        474    
+Loading bus.TotalTimePerEntity              .23706     .01298     .16693     .67057        474    
+Moving.VATimePerEntity                      .75000     1.7975E-16 .75000     .75000        338    
+Loading bus.VATimePerEntity                 .20667     .00200     .16693     .24988        474    
+Moving.TotalTimePerEntity                   .93348     .05194     .75000     2.8516        338    
+Bus.VATime                                  1.0398     .01595     .91694     1.7909        338    
+Bus.NVATime                                 .00000     .00000     .00000     .00000        338    
+Bus.WaitTime                                .22610     .06362     .00000     2.2281        338    
+Bus.TranTime                                .00000     .00000     .00000     .00000        338    
+Bus.OtherTime                               .00000     .00000     .00000     .00000        338    
+Bus.TotalTime                               1.2659     .06647     .91694     3.9249        338    
+Moving.Queue.WaitingTime                    .18348     .05194     .00000     2.1016        338    
+Loading bus.Queue.WaitingTime               .03039     .01278     .00000     .46766        474    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Bus.WIP                                     .59428     .07312     .00000     5.0000     .00000    
+Loader.NumberBusy                           .13606     .01341     .00000     1.0000     .00000    
+Loader.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Loader.Utilization                          .13606     .01341     .00000     1.0000     .00000    
+Moving bus.NumberBusy                       .35208     .03441     .00000     1.0000     .00000    
+Moving bus.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Moving bus.Utilization                      .35208     .03441     .00000     1.0000     .00000    
+Moving.Queue.NumberInQueue                  .08613     (Insuf)    .00000     3.0000     .00000    
+Loading bus.Queue.NumberInQueue             .02001     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Loading bus Number Out                      474.00    
+Moving Number Out                           338.00    
+Moving Number In                            338.00    
+Moving Accum VA Time                        253.50    
+Loading bus Accum VA Time                   97.960    
+Moving Accum Wait Time                      62.015    
+Loading bus Number In                       474.00    
+Loading bus Accum Wait Time                 14.406    
+Bus.NumberIn                                338.00    
+Bus.NumberOut                               338.00    
+Loader.NumberSeized                         474.00    
+Loader.ScheduledUtilization                 .13606    
+Moving bus.NumberSeized                     338.00    
+Moving bus.ScheduledUtilization             .35208    
+System.NumberOut                            338.00    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.

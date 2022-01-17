@@ -1,0 +1,16 @@
+[RESOURCES]
+Loader
+Moving bus
+[VARIABLES]
+Loading bus.NumberOut
+Moving.NumberOut
+Reased at permanent campus.NumberOut
+Moving.NumberIn
+Bus Arrival.NumberOut
+Moving.VATime
+Loading bus.VATime
+Moving.WaitTime
+Loading bus.NumberIn
+Checker.NumberOut False
+Loading bus.WaitTime
+Checker.NumberOut True
